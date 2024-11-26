@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PractiseProjects2\\PdfManualReader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F3A575-B842-4594-9055-E1C0BE49111F}|PdfManualReader\\PdfManualReader.csproj|d:\\practiseprojects2\\pdfmanualreader\\pdfmanualreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F3A575-B842-4594-9055-E1C0BE49111F}|PdfManualReader\\PdfManualReader.csproj|solutionrelative:pdfmanualreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F3A575-B842-4594-9055-E1C0BE49111F}|PdfManualReader\\PdfManualReader.csproj|d:\\practiseprojects2\\pdfmanualreader\\pdfmanualreader\\pdfreaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F3A575-B842-4594-9055-E1C0BE49111F}|PdfManualReader\\PdfManualReader.csproj|solutionrelative:pdfmanualreader\\pdfreaderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5F3A575-B842-4594-9055-E1C0BE49111F}|PdfManualReader\\PdfManualReader.csproj|d:\\practiseprojects2\\pdfmanualreader\\pdfmanualreader\\pathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5F3A575-B842-4594-9055-E1C0BE49111F}|PdfManualReader\\PdfManualReader.csproj|solutionrelative:pdfmanualreader\\pathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:73176310:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PractiseProjects2\\PdfManualReader\\PdfManualReader\\Program.cs",
+              "RelativeDocumentMoniker": "PdfManualReader\\Program.cs",
+              "ToolTip": "D:\\PractiseProjects2\\PdfManualReader\\PdfManualReader\\Program.cs",
+              "RelativeToolTip": "PdfManualReader\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:31:28.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PdfReaderService.cs",
+              "DocumentMoniker": "D:\\PractiseProjects2\\PdfManualReader\\PdfManualReader\\PdfReaderService.cs",
+              "RelativeDocumentMoniker": "PdfManualReader\\PdfReaderService.cs",
+              "ToolTip": "D:\\PractiseProjects2\\PdfManualReader\\PdfManualReader\\PdfReaderService.cs",
+              "RelativeToolTip": "PdfManualReader\\PdfReaderService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAASwB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:29:22.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PathUtils.cs",
+              "DocumentMoniker": "D:\\PractiseProjects2\\PdfManualReader\\PdfManualReader\\PathUtils.cs",
+              "RelativeDocumentMoniker": "PdfManualReader\\PathUtils.cs",
+              "ToolTip": "D:\\PractiseProjects2\\PdfManualReader\\PdfManualReader\\PathUtils.cs",
+              "RelativeToolTip": "PdfManualReader\\PathUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:15:33.036Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
