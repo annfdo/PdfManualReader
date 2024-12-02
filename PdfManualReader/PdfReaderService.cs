@@ -7,6 +7,9 @@ using System.Text.Json;
 using PdfManualReader;
 using UglyToad.PdfPig.DocumentLayoutAnalysis.PageSegmenter;
 using UglyToad.PdfPig.DocumentLayoutAnalysis.WordExtractor;
+using System.Numerics.Tensors;
+using Microsoft.SemanticKernel.Embeddings;
+using Microsoft.ML.OnnxRuntime.Tensors;
 
 public interface IPdfReaderService
 {
@@ -60,6 +63,31 @@ public class PdfReaderService : IPdfReaderService
                     Text = p.First,
                     Embedding = MemoryMarshal.AsBytes(p.Second.Span).ToArray()
                 }));
+
+                string phase = "Why Apple experience unique and cohesive";
+
+                var searchWord = await embeddingGenerator.GenerateEmbeddingAsync(phase);
+
+                //var similarity = TensorPrimitives.CosineSimilarity(searchWord2, searchWord);
+
+                var closest =
+                    from p in paragraphsWithEmbeddings
+                    let similarity = TensorPrimitives.CosineSimilarity(
+                        p.Second.Span, searchWord.Span)
+                    orderby similarity descending
+                    select new
+                    {
+                        Text = p.First,
+                        Similarity = similarity
+                    };
+
+                Console.WriteLine($"\n Search Phase :{phase} \n");
+
+                foreach (var c in closest.Take(1))
+                {
+                    Console.WriteLine($"________________({c.Similarity}): \n {c.Text}");
+                }
+
             }
         }
 
@@ -76,4 +104,5 @@ public class PdfReaderService : IPdfReaderService
         return string.Join(Environment.NewLine + Environment.NewLine,
             textBlocks.Select(t => t.Text.ReplaceLineEndings(" ")));
     }
+
 }
